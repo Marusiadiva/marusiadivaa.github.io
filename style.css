@@ -10,7 +10,7 @@ p {
     font-size: 30px;
     line-height: 100%;
 }
-block 1 {
+.div1 {
 width: 200px; 
 background: #ccc;
 padding: 5px;
