@@ -3,7 +3,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-    background-color:rgb(0, 115, 111) ;
+    background-image: url(bg.jpg) ;
   }
 p {
   font-family: Arial, Helvetica, sans-serif
