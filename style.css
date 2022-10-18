@@ -1,7 +1,10 @@
-/* background-color:red; */
+
 html {
   scroll-behavior: smooth;
 }
+body {
+    background-color:rgb(0, 105, 111) ;
+  }
 p {
     color: rgb(0, 105, 111);
     font-family: Arial, Helvetica, sans-serif
