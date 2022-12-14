@@ -1,25 +1,53 @@
 
 html {
   scroll-behavior: smooth;
+  font-family: 'Fira Sans', sans-serif;
 }
 body {
     background-image: url(bg2.jpg) ;
 }
-p {
-  font: Arial, Helvetica, sans-serif
-    font-size: 100px;
-    line-height: 100%;
-}
-.div1 {
-width: 50px; 
-background : rgb(0, 0, 0);
-width: 20%;
-padding: 5px;
-padding: right 5px;px; 
-border: solid 2px rgb(255, 255, 255); 
-float: left;
-text-decoration-color: azure;}
 h1 {
-  font-family: Arial, Helvetica, sans-serif
+position: relative;
+text-align: center;
   font color: rgb(240, 248, 16);
 }
+.flexbox-container{
+display: flex;
+}
+.flexbox-item{
+ width: 300px;
+ margin: 50px;
+ border: 3px solid rgba(51, 51, 51, 0); 
+ text-align: center margin:10px
+}
+.flexbox-item-1{
+  min-height: 100px;
+}
+.flexbox-item-2{
+  min-height: 200px;
+}
+.flexbox-item-3{
+  min-height: 300px;
+}
+.image1{
+  width: 300px;
+  align: left;
+  margin: 20px;
+  hspace: 10px;
+  vspace: 10px;
+}
+.flexbox-container-body{
+  display: block;
+}
+.flexbox-body-item{
+  width: 300px;
+  margin: 50px;
+  border: 3px solid rgba(51, 51, 51, 0); 
+  text-align: center margin:10px
+}
+ .flexbox-body-item-1{
+  min-height: 300px;
+ }
+ .flexbox-body-item-2{
+  min-height: 100px;
+ }
